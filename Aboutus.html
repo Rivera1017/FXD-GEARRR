@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="LOGOFXD.png">
+</head>
+<style>
+    .container {
+            width: 100%;
+            height: auto; /* Changed to auto for better responsiveness */
+            display: flex;
+            flex-wrap: wrap; /* Allow cards to wrap */
+            justify-content: center;
+            padding: 20px; /* Added padding for spacing */
+        }
+        .card {
+            width: 90%;
+            max-width: 440px;
+            color: #fff;
+            text-align: center;
+            padding: 50px 35px;
+            border: 1px solid rgba(225, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            margin: 10px; /* Added margin for spacing between cards */
+        }
+        .card img {
+            width: 140px;
+            border-radius: 50%;
+        }
+        .card h2 {
+            font-size: 24px; /* Adjusted font size for better readability */
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        .card p {
+            font-size: 18px;
+            margin: 10px auto;
+            max-width: 330px;
+        }
+        .card .links img {
+            width: 40px;
+            border-radius: 50%;
+            margin: 10px 5px;
+            transition: background 0.5s;
+        }
+        .btn {
+            text-decoration: none;
+            display: inline-block; /* Changed to inline-block for better button styling */
+            font-size: 18px;
+            font-weight: 500;
+            background: #fff;
+            color: #ff01cf;
+            padding: 10px 30px;
+            border-radius: 30px;
+            margin: 30px 0 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn:hover {
+            background: #ff01cf;
+            color: #fff;
+        }
+</style>
+<body>
+
+<header>
+    <img src="LOGOFXD.png" class="logo" alt="Logo">
+    <h1>FXD</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Bikes.html">Bikes</a>
+                <select onchange="location=this.value;">
+                    <option value="Bikes.html">All</option>
+                    <option value="Aero Bikes.html">Aero</option>
+                    <option value="Pursuit.html">Pursuit</option>
+                    <option value="Straight.html">Straight</option>
+                    <option value="Slope.html">Slope</option>
+                </select></li>
+            <li><a href="ContactInfo.html">Contact</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <section id="history">
+        <h1>At FXD we recommend the best of the best Fixed Gear bikes out there.</h1>
+        <h2>Our website helps you pick your next ride.</h2>
+        <p>
+            At FXD, we're passionate about the simplicity, speed, and style of fixed gear bikes. Our mission is to help riders—from beginners to professional cyclist find the perfect fixie that suits their lifestyle, budget, and riding needs. We research, review, and recommend the best fixed gear bikes on the market so you can make confident choices without the guesswork. Whether you're commuting through the city or just love the clean design of a fixie, we're here to guide you every pedal of the way.
+        </p>
+        
+    </section>
+    
+</div>
+<div class="container">
+    <div class="card">
+        <img src="rivera.jpg">
+        <h2>John Ashley C. Rivera</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/AshuriSensei"><img src="fb.jpg"></a>
+            <a href="https://www.instagram.com/kiyorvr/?igsh=dWRicWk1b2FobXpk#"><img src="insta.jpg"></a>
+        </div>
+
+        <a class="btn">Follow</a>     
+    </div>
+
+    <div class="card">
+        <img src="lopez.jpg">
+        <h2>Ronald C. Lopez</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/sejun.atin.92#"><img src="fb.jpg"></a>
+            <a href="https://www.instagram.com/ronaldtheqt/?igsh=dGcyMGJycWJ6ZHFq#"><img src="insta.jpg"></a>
+        </div>
+
+        <a class="btn">Follow</a>   
+        </div>
+    
+</div>
+<section id="school-map">
+    <h2>Our School Location</h2>
+    <a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7851.183693762789!2d123.89344197413315!3d10.294432889826508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sus!4v1741940276749!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+
+<footer>
+    <center>
+    <p>&copy; 2025 Fixed Gear Bikes. All rights reserved.</p>
+    </center>
+</footer>
+
+
+</body>
+</html>
